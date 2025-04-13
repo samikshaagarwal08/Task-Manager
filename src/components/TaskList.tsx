@@ -1,4 +1,3 @@
-// components/TaskList.tsx
 'use client';
 
 import { CheckCircle, Circle } from 'lucide-react';

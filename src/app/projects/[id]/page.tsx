@@ -1,4 +1,3 @@
-// app/projects/[id]/page.tsx
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -64,7 +63,7 @@ export default function ProjectDetail() {
                 value={newTask}
                 onChange={(e) => setNewTask(e.target.value)}
                 placeholder="Add a new task..."
-                className="flex-1 px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="flex-1 px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
               />
               <button
                 type="submit"

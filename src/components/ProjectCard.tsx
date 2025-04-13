@@ -1,4 +1,3 @@
-// components/ProjectCard.tsx
 'use client';
 import Link from 'next/link';
 import { Calendar, CheckCircle2 } from 'lucide-react';
